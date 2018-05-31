@@ -14,6 +14,6 @@ function safe (object, path) {
             }
         }, object || this)
     } catch (e) {
-        return 'Error: Incorrect attributes in resolve function'
+        return 'Error: Incorrect attributes'
     }
 }
