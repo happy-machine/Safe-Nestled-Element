@@ -1,17 +1,3 @@
-
-
-## Installation
-
-using NPM:
-
-    install npm i --save safe-nestled-element
-    var safe = require ('safe-nestled-element')
-    
-
-
-----------
-
-
 Useful function for retrieving elements from foreign objects/arrays.
 
 If an element doesn't exist it will return null. This is particularly useful if you're trying to access an element in a response object that may be undefined. **'safe-nestled-element'** will convert the undefined element to null, avoiding an error.
