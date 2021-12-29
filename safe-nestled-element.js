@@ -12,8 +12,8 @@ function safe (object, path) {
             } else {
                 return null
             }
-        }, object || this)
+        },{})
     } catch (e) {
-        return 'Error: Incorrect attributes'
+        throw new Error('Error: Incorrect attributes')
     }
 }
